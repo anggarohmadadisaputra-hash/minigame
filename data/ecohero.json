@@ -1,0 +1,43 @@
+{
+  "bins": [
+    { "id": "organik", "name": "Organik", "icon": "fa-leaf", "desc": "Sisa makhluk hidup, mudah membusuk" },
+    { "id": "anorganik", "name": "Anorganik", "icon": "fa-bottle-water", "desc": "Plastik, kaca, logam, kertas" },
+    { "id": "b3", "name": "B3", "icon": "fa-biohazard", "desc": "Bahan berbahaya & beracun" }
+  ],
+  "missions": [
+    { "id": 1, "name": "Taman Sekolah", "icon": "🏫", "count": 8, "time": 60, "desc": "Bersihkan taman sekolah dari sampah." },
+    { "id": 2, "name": "Sungai Bersih", "icon": "🏞️", "count": 12, "time": 75, "desc": "Selamatkan sungai dari tumpukan sampah." },
+    { "id": 3, "name": "Kota Hijau", "icon": "🏙️", "count": 16, "time": 85, "desc": "Misi besar: rapikan seluruh kota!" }
+  ],
+  "items": [
+    { "name": "Kulit pisang", "icon": "🍌", "type": "organik", "fact": "Sampah organik bisa diolah menjadi kompos untuk menyuburkan tanaman." },
+    { "name": "Sisa apel", "icon": "🍎", "type": "organik", "fact": "Sisa buah membusuk alami dan baik untuk bahan kompos." },
+    { "name": "Sayur busuk", "icon": "🥬", "type": "organik", "fact": "Sayuran busuk dapat diurai mikroorganisme menjadi pupuk." },
+    { "name": "Daun kering", "icon": "🍂", "type": "organik", "fact": "Daun kering adalah bahan kompos 'coklat' yang kaya karbon." },
+    { "name": "Tulang ayam", "icon": "🍗", "type": "organik", "fact": "Sisa makanan seperti tulang termasuk organik, tetapi terurai lebih lama." },
+    { "name": "Cangkang telur", "icon": "🥚", "type": "organik", "fact": "Cangkang telur menambah kalsium pada kompos." },
+    { "name": "Ampas kopi", "icon": "☕", "type": "organik", "fact": "Ampas kopi dapat dipakai sebagai pupuk dan penghilang bau." },
+    { "name": "Roti basi", "icon": "🍞", "type": "organik", "fact": "Makanan basi termasuk sampah organik yang dapat dikomposkan." },
+    { "name": "Botol plastik", "icon": "🥤", "type": "anorganik", "fact": "Plastik butuh ratusan tahun untuk terurai. Daur ulang atau gunakan botol minum isi ulang." },
+    { "name": "Kaleng bekas", "icon": "🥫", "type": "anorganik", "fact": "Kaleng logam dapat didaur ulang berkali-kali tanpa kehilangan kualitas." },
+    { "name": "Kantong plastik", "icon": "🛍️", "type": "anorganik", "fact": "Bawa tas belanja sendiri untuk mengurangi sampah kantong plastik." },
+    { "name": "Botol kaca", "icon": "🍾", "type": "anorganik", "fact": "Kaca dapat didaur ulang tanpa batas dan menghemat energi produksi." },
+    { "name": "Kardus", "icon": "📦", "type": "anorganik", "fact": "Kardus dan kertas bisa didaur ulang menjadi produk kertas baru." },
+    { "name": "Koran bekas", "icon": "📰", "type": "anorganik", "fact": "Kertas bekas yang kering dan bersih layak didaur ulang." },
+    { "name": "Kemasan jus kotak", "icon": "🧃", "type": "anorganik", "fact": "Kemasan berlapis bisa didaur ulang bila dibilas dan dikeringkan dulu." },
+    { "name": "Sepatu bekas", "icon": "👟", "type": "anorganik", "fact": "Sepatu bekas layak donasi atau didaur ulang, bukan dibuang sembarangan." },
+    { "name": "Baterai bekas", "icon": "🔋", "type": "b3", "fact": "Baterai mengandung logam berat yang mencemari tanah dan air. Serahkan ke tempat pengumpulan B3." },
+    { "name": "Lampu neon", "icon": "💡", "type": "b3", "fact": "Lampu neon mengandung merkuri. Jangan dipecahkan dan buang ke tempat khusus B3." },
+    { "name": "Obat kedaluwarsa", "icon": "💊", "type": "b3", "fact": "Obat kedaluwarsa dapat mencemari air bila dibuang ke saluran. Kembalikan ke apotek atau fasilitas B3." },
+    { "name": "Botol pestisida", "icon": "🧴", "type": "b3", "fact": "Sisa pestisida beracun bagi tanah dan air. Perlakukan sebagai limbah B3." },
+    { "name": "Ponsel rusak", "icon": "📱", "type": "b3", "fact": "Sampah elektronik (e-waste) mengandung logam berat. Serahkan ke pusat daur ulang elektronik." },
+    { "name": "Termometer raksa", "icon": "🌡️", "type": "b3", "fact": "Raksa sangat beracun. Jangan dibuang bersama sampah rumah tangga." },
+    { "name": "Aki bekas", "icon": "🚗", "type": "b3", "fact": "Aki mengandung timbal dan asam. Setorkan ke bengkel atau pengepul resmi." },
+    { "name": "Kartrid tinta printer", "icon": "🖨️", "type": "b3", "fact": "Kartrid tinta mengandung bahan kimia. Banyak produsen menerima pengembalian kartrid bekas." }
+  ],
+  "tips": [
+    "Terapkan 3R: Reduce (kurangi), Reuse (pakai ulang), Recycle (daur ulang).",
+    "Pisahkan sampah dari rumah agar proses daur ulang lebih mudah.",
+    "Sampah organik dapat dijadikan kompos untuk menyuburkan tanaman."
+  ]
+}

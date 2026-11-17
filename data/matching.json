@@ -1,0 +1,30 @@
+{
+  "sets": [
+    {
+      "id": "teknologi", "name": "Teknologi", "icon": "fa-microchip",
+      "pairs": [
+        { "icon": "💻", "name": "Laptop", "def": "Komputer portabel yang bisa dibawa ke mana-mana" },
+        { "icon": "🖱️", "name": "Mouse", "def": "Perangkat penunjuk untuk menggerakkan kursor" },
+        { "icon": "⌨️", "name": "Keyboard", "def": "Perangkat input untuk mengetik huruf dan angka" },
+        { "icon": "🖨️", "name": "Printer", "def": "Perangkat pencetak dokumen ke kertas" },
+        { "icon": "📡", "name": "Router", "def": "Perangkat pengatur lalu lintas data jaringan Wi-Fi" },
+        { "icon": "💾", "name": "Penyimpanan", "def": "Media untuk menyimpan data digital" },
+        { "icon": "🔋", "name": "Baterai", "def": "Penyimpan daya listrik portabel" },
+        { "icon": "📷", "name": "Kamera", "def": "Alat penangkap gambar dan video" }
+      ]
+    },
+    {
+      "id": "sains", "name": "Sains & Alam", "icon": "fa-flask",
+      "pairs": [
+        { "icon": "🌍", "name": "Bumi", "def": "Planet tempat manusia hidup" },
+        { "icon": "🌙", "name": "Bulan", "def": "Satelit alami yang mengelilingi Bumi" },
+        { "icon": "☀️", "name": "Matahari", "def": "Bintang pusat tata surya penghasil cahaya" },
+        { "icon": "🧲", "name": "Magnet", "def": "Benda yang dapat menarik logam tertentu" },
+        { "icon": "🔬", "name": "Mikroskop", "def": "Alat untuk mengamati benda yang sangat kecil" },
+        { "icon": "🌡️", "name": "Termometer", "def": "Alat pengukur suhu" },
+        { "icon": "🧪", "name": "Tabung Reaksi", "def": "Wadah kaca untuk percobaan kimia" },
+        { "icon": "🌱", "name": "Tunas", "def": "Tumbuhan muda yang baru tumbuh dari biji" }
+      ]
+    }
+  ]
+}

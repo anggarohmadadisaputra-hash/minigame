@@ -1,0 +1,99 @@
+{
+  "challenges": [
+    {
+      "id": 1, "level": "pemula", "type": "order", "topic": "Variabel",
+      "title": "Susun kode agar menampilkan: Halo, Budi",
+      "lines": ["<?php", "$nama = \"Budi\";", "echo \"Halo, \" . $nama;", "?>"],
+      "explain": "Kode PHP diawali <?php, variabel $nama diisi dulu, baru ditampilkan dengan echo. Operator titik (.) menggabungkan string."
+    },
+    {
+      "id": 2, "level": "pemula", "type": "output", "topic": "Variabel",
+      "title": "Apa output kode berikut?",
+      "code": "<?php\n$a = 5;\n$b = 3;\necho $a + $b;\n?>",
+      "options": ["8", "53", "2", "Error"], "answer": 0,
+      "explain": "Operator + menjumlahkan angka: 5 + 3 = 8."
+    },
+    {
+      "id": 3, "level": "pemula", "type": "output", "topic": "Tipe Data",
+      "title": "Apa output kode berikut?",
+      "code": "<?php\n$x = \"5\";\n$y = 3;\necho $x + $y;\n?>",
+      "options": ["8", "53", "5 3", "Error"], "answer": 0,
+      "explain": "PHP mengubah string numerik \"5\" menjadi angka saat dipakai dengan operator +, sehingga hasilnya 8."
+    },
+    {
+      "id": 4, "level": "pemula", "type": "logic", "topic": "Tipe Data",
+      "title": "Apa tipe data dari variabel $harga pada kode ini?",
+      "code": "$harga = 15000.50;",
+      "options": ["integer", "string", "float", "boolean"], "answer": 2,
+      "explain": "Angka dengan bagian desimal bertipe float (double)."
+    },
+    {
+      "id": 5, "level": "pemula", "type": "fix", "topic": "Sintaks",
+      "title": "Kode di bawah error. Perbaikan mana yang benar?",
+      "code": "<?php\necho \"Halo Dunia\"\n?>",
+      "options": ["Tambahkan titik koma (;) di akhir baris echo", "Ganti echo dengan print_all", "Hapus tanda kutip", "Tambahkan tanda titik dua (:) di akhir baris"], "answer": 0,
+      "explain": "Setiap pernyataan PHP harus diakhiri titik koma (;). Titik koma opsional hanya pada pernyataan terakhir sebelum ?>, tetapi sebaiknya selalu ditulis."
+    },
+    {
+      "id": 6, "level": "pemula", "type": "order", "topic": "Percabangan",
+      "title": "Susun kode if-else agar benar",
+      "lines": ["$nilai = 80;", "if ($nilai >= 75) {", "    echo \"Lulus\";", "} else {", "    echo \"Remedial\";", "}"],
+      "explain": "Struktur if-else: kondisi di dalam tanda kurung, blok if, lalu blok else."
+    },
+    {
+      "id": 7, "level": "pemula", "type": "output", "topic": "Percabangan",
+      "title": "Apa output kode berikut?",
+      "code": "<?php\n$umur = 17;\nif ($umur >= 18) {\n    echo \"Dewasa\";\n} else {\n    echo \"Remaja\";\n}\n?>",
+      "options": ["Dewasa", "Remaja", "17", "Tidak ada output"], "answer": 1,
+      "explain": "17 >= 18 bernilai false, sehingga blok else yang dijalankan."
+    },
+    {
+      "id": 8, "level": "pemula", "type": "output", "topic": "Perulangan",
+      "title": "Apa output kode berikut?",
+      "code": "<?php\nfor ($i = 1; $i <= 3; $i++) {\n    echo $i;\n}\n?>",
+      "options": ["123", "1 2 3", "321", "3"], "answer": 0,
+      "explain": "Loop berjalan untuk i = 1, 2, 3 dan echo mencetak tanpa pemisah: 123."
+    },
+    {
+      "id": 9, "level": "menengah", "type": "logic", "topic": "Perulangan",
+      "title": "Berapa kali loop ini dijalankan?",
+      "code": "for ($i = 0; $i < 10; $i += 2) {\n    // ...\n}",
+      "options": ["4 kali", "5 kali", "10 kali", "6 kali"], "answer": 1,
+      "explain": "Nilai i: 0, 2, 4, 6, 8. Saat i = 10 kondisi false, jadi 5 kali."
+    },
+    {
+      "id": 10, "level": "menengah", "type": "fix", "topic": "Perulangan",
+      "title": "Loop ini tidak pernah berhenti. Perbaikan yang tepat?",
+      "code": "$i = 0;\nwhile ($i < 3) {\n    echo $i;\n}",
+      "options": ["Tambahkan $i++; di dalam loop", "Ganti < menjadi >", "Hapus echo", "Ganti while dengan if"], "answer": 0,
+      "explain": "Tanpa kenaikan $i, kondisi $i < 3 selalu true (infinite loop). Tambahkan $i++ di dalam blok."
+    },
+    {
+      "id": 11, "level": "menengah", "type": "order", "topic": "Perulangan",
+      "title": "Susun kode foreach untuk menampilkan semua buah",
+      "lines": ["$buah = [\"apel\", \"jeruk\", \"mangga\"];", "foreach ($buah as $b) {", "    echo $b . \" \";", "}"],
+      "explain": "foreach mengulang setiap elemen array; $b berisi elemen pada tiap putaran."
+    },
+    {
+      "id": 12, "level": "menengah", "type": "output", "topic": "Perulangan",
+      "title": "Apa output kode berikut?",
+      "code": "<?php\n$n = 5;\n$total = 0;\nfor ($i = 1; $i <= $n; $i++) {\n    $total += $i;\n}\necho $total;\n?>",
+      "options": ["10", "15", "5", "21"], "answer": 1,
+      "explain": "Menjumlahkan 1+2+3+4+5 = 15."
+    },
+    {
+      "id": 13, "level": "menengah", "type": "logic", "topic": "Tipe Data",
+      "title": "Operator apa yang dipakai PHP untuk menggabungkan dua string?",
+      "code": "$a = \"Halo\";\n$b = \"Dunia\";\n$c = $a ___ $b;",
+      "options": [". (titik)", "+ (tambah)", "& (ampersand)", ", (koma)"], "answer": 0,
+      "explain": "Di PHP, penggabungan string memakai operator titik (.), contoh: $a . $b."
+    },
+    {
+      "id": 14, "level": "menengah", "type": "output", "topic": "Percabangan",
+      "title": "Apa output kode berikut?",
+      "code": "<?php\n$a = 10;\nif ($a > 5 && $a < 8) {\n    echo \"A\";\n} elseif ($a >= 10) {\n    echo \"B\";\n} else {\n    echo \"C\";\n}\n?>",
+      "options": ["A", "B", "C", "AB"], "answer": 1,
+      "explain": "Kondisi pertama false (10 tidak < 8). elseif $a >= 10 bernilai true, sehingga B dicetak."
+    }
+  ]
+}

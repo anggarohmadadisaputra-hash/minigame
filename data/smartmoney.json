@@ -1,0 +1,308 @@
+{
+  "months": 6,
+  "income": 4000000,
+  "startBalance": 500000,
+  "debtInterest": 0.05,
+  "needs": [
+    {
+      "id": "makan",
+      "name": "Makan & minum",
+      "icon": "🍚",
+      "options": [
+        {
+          "label": "Hemat",
+          "cost": 900000,
+          "happy": 0
+        },
+        {
+          "label": "Standar",
+          "cost": 1200000,
+          "happy": 3
+        }
+      ]
+    },
+    {
+      "id": "tinggal",
+      "name": "Kos / tempat tinggal",
+      "icon": "🏠",
+      "options": [
+        {
+          "label": "Hemat",
+          "cost": 800000,
+          "happy": 0
+        },
+        {
+          "label": "Standar",
+          "cost": 1000000,
+          "happy": 3
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transportasi",
+      "icon": "🚌",
+      "options": [
+        {
+          "label": "Hemat",
+          "cost": 250000,
+          "happy": 0
+        },
+        {
+          "label": "Standar",
+          "cost": 400000,
+          "happy": 3
+        }
+      ]
+    },
+    {
+      "id": "internet",
+      "name": "Internet & pulsa",
+      "icon": "📶",
+      "options": [
+        {
+          "label": "Hemat",
+          "cost": 100000,
+          "happy": 0
+        },
+        {
+          "label": "Standar",
+          "cost": 200000,
+          "happy": 3
+        }
+      ]
+    }
+  ],
+  "wants": [
+    {
+      "id": "kafe",
+      "name": "Nongkrong di kafe",
+      "icon": "☕",
+      "cost": 200000,
+      "happy": 6
+    },
+    {
+      "id": "stream",
+      "name": "Langganan streaming",
+      "icon": "📺",
+      "cost": 100000,
+      "happy": 4
+    },
+    {
+      "id": "game",
+      "name": "Top up game",
+      "icon": "🎮",
+      "cost": 150000,
+      "happy": 5
+    },
+    {
+      "id": "baju",
+      "name": "Belanja pakaian",
+      "icon": "👕",
+      "cost": 300000,
+      "happy": 8
+    },
+    {
+      "id": "bioskop",
+      "name": "Nonton bioskop",
+      "icon": "🎬",
+      "cost": 100000,
+      "happy": 4
+    },
+    {
+      "id": "liburan",
+      "name": "Liburan akhir pekan",
+      "icon": "🏖️",
+      "cost": 400000,
+      "happy": 12
+    },
+    {
+      "id": "gadget",
+      "name": "Aksesori gadget",
+      "icon": "🎧",
+      "cost": 250000,
+      "happy": 6
+    }
+  ],
+  "events": [
+    {
+      "id": "laptop",
+      "icon": "💻",
+      "title": "Laptop rusak!",
+      "desc": "Laptop tiba-tiba mati total dan harus diservis. Biaya perbaikan Rp 700.000.",
+      "options": [
+        {
+          "label": "Bayar dari tabungan darurat",
+          "savings": -700000,
+          "happy": 0,
+          "note": "Dana darurat berguna untuk situasi seperti ini."
+        },
+        {
+          "label": "Bayar dari saldo bulan ini",
+          "saldo": -700000,
+          "happy": -2,
+          "note": "Saldo berkurang cukup besar."
+        },
+        {
+          "label": "Pinjam ke teman",
+          "debt": 700000,
+          "happy": -4,
+          "note": "Utang akan berbunga 5% per bulan. Segera lunasi."
+        }
+      ]
+    },
+    {
+      "id": "sakit",
+      "icon": "🤒",
+      "title": "Sakit dan perlu berobat",
+      "desc": "Kamu demam tinggi dan perlu ke dokter. Biaya sekitar Rp 400.000.",
+      "options": [
+        {
+          "label": "Bayar dari tabungan darurat",
+          "savings": -400000,
+          "happy": 0,
+          "note": "Kesehatan nomor satu, dan tabunganmu siap."
+        },
+        {
+          "label": "Bayar dari saldo",
+          "saldo": -400000,
+          "happy": -1,
+          "note": ""
+        },
+        {
+          "label": "Pinjam ke teman",
+          "debt": 400000,
+          "happy": -3,
+          "note": "Utang berbunga 5% per bulan."
+        }
+      ]
+    },
+    {
+      "id": "kondangan",
+      "icon": "💒",
+      "title": "Undangan pernikahan teman",
+      "desc": "Sahabatmu menikah. Amplop dan ongkos sekitar Rp 200.000.",
+      "options": [
+        {
+          "label": "Hadir dan beri amplop",
+          "saldo": -200000,
+          "happy": 4,
+          "note": "Hubungan sosial terjaga."
+        },
+        {
+          "label": "Titip salam saja",
+          "happy": -4,
+          "note": "Hemat, tapi kamu merasa kurang enak."
+        }
+      ]
+    },
+    {
+      "id": "diskon",
+      "icon": "🛍️",
+      "title": "Diskon besar gadget!",
+      "desc": "Ada diskon 70% untuk headphone impian seharga Rp 500.000 (setelah diskon).",
+      "options": [
+        {
+          "label": "Beli dengan saldo",
+          "saldo": -500000,
+          "happy": 10,
+          "note": "Senang, tapi apakah ini kebutuhan?"
+        },
+        {
+          "label": "Beli dengan paylater",
+          "debt": 500000,
+          "happy": 10,
+          "note": "Paylater berbunga 5% per bulan."
+        },
+        {
+          "label": "Lewati, bukan kebutuhan",
+          "happy": 1,
+          "note": "Keputusan bijak: kebutuhan dulu, keinginan kemudian."
+        }
+      ]
+    },
+    {
+      "id": "bonus",
+      "icon": "🎁",
+      "title": "Bonus tak terduga +Rp 600.000",
+      "desc": "Kamu mendapat bonus dari hasil kerja sampingan.",
+      "options": [
+        {
+          "label": "Simpan ke tabungan",
+          "savings": 600000,
+          "happy": 2,
+          "note": "Dana darurat bertambah."
+        },
+        {
+          "label": "Pakai untuk bersenang-senang",
+          "saldo": 600000,
+          "happy": 10,
+          "note": "Masuk ke saldo untuk dipakai bulan ini."
+        },
+        {
+          "label": "Bayar utang (jika ada)",
+          "payDebt": 600000,
+          "happy": 3,
+          "note": "Utang yang lunas = beban berkurang."
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "icon": "🛵",
+      "title": "Kendaraan mogok",
+      "desc": "Motor mogok di jalan. Biaya bengkel Rp 450.000.",
+      "options": [
+        {
+          "label": "Bayar dari tabungan darurat",
+          "savings": -450000,
+          "happy": 0,
+          "note": ""
+        },
+        {
+          "label": "Bayar dari saldo",
+          "saldo": -450000,
+          "happy": -2,
+          "note": ""
+        },
+        {
+          "label": "Pinjam ke teman",
+          "debt": 450000,
+          "happy": -3,
+          "note": "Utang berbunga 5% per bulan."
+        }
+      ]
+    },
+    {
+      "id": "listrik",
+      "icon": "💡",
+      "title": "Tagihan listrik membengkak",
+      "desc": "Tagihan listrik kos naik Rp 150.000 bulan ini.",
+      "options": [
+        {
+          "label": "Bayar dari saldo",
+          "saldo": -150000,
+          "happy": -1,
+          "note": ""
+        },
+        {
+          "label": "Bayar dari tabungan",
+          "savings": -150000,
+          "happy": 0,
+          "note": ""
+        },
+        {
+          "label": "Tunda bayar (utang)",
+          "debt": 150000,
+          "happy": -2,
+          "note": "Utang berbunga 5% per bulan, lebih baik segera dilunasi."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Aturan 50/30/20: 50% kebutuhan, 30% keinginan, 20% tabungan.",
+    "Dana darurat ideal setara 3–6 bulan pengeluaran wajib.",
+    "Utang konsumtif berbunga tinggi sebaiknya dilunasi lebih dulu."
+  ]
+}

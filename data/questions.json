@@ -1,0 +1,45 @@
+{
+  "categories": [
+    { "id": "teknologi", "name": "Teknologi", "icon": "fa-microchip" },
+    { "id": "sejarah", "name": "Sejarah", "icon": "fa-landmark" },
+    { "id": "sains", "name": "Sains", "icon": "fa-flask" },
+    { "id": "umum", "name": "Pengetahuan Umum", "icon": "fa-earth-asia" }
+  ],
+  "questions": [
+    { "cat": "teknologi", "level": "easy", "q": "Apa kepanjangan dari CPU?", "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Processing Union"], "answer": 0, "explain": "CPU (Central Processing Unit) adalah otak komputer yang menjalankan instruksi program." },
+    { "cat": "teknologi", "level": "easy", "q": "Perangkat apa yang menampilkan output visual dari komputer?", "options": ["Keyboard", "Monitor", "Mouse", "Scanner"], "answer": 1, "explain": "Monitor adalah perangkat output yang menampilkan gambar dan teks dari komputer." },
+    { "cat": "teknologi", "level": "easy", "q": "Bahasa markup yang dipakai untuk membuat struktur halaman web adalah...", "options": ["HTML", "PHP", "SQL", "Python"], "answer": 0, "explain": "HTML (HyperText Markup Language) menyusun struktur konten halaman web." },
+    { "cat": "teknologi", "level": "medium", "q": "Protokol yang digunakan untuk mengakses situs web secara aman adalah...", "options": ["FTP", "HTTPS", "SMTP", "SSH"], "answer": 1, "explain": "HTTPS mengenkripsi komunikasi antara browser dan server menggunakan TLS." },
+    { "cat": "teknologi", "level": "medium", "q": "Android dikembangkan dan dikelola oleh perusahaan...", "options": ["Apple", "Google", "Microsoft", "Nokia"], "answer": 1, "explain": "Android adalah sistem operasi berbasis kernel Linux yang dikembangkan Google." },
+    { "cat": "teknologi", "level": "medium", "q": "Fungsi utama DNS (Domain Name System) adalah...", "options": ["Menerjemahkan nama domain menjadi alamat IP", "Mengenkripsi seluruh data", "Mempercepat prosesor", "Menyimpan berkas pengguna"], "answer": 0, "explain": "DNS bekerja seperti buku telepon internet: nama domain diubah menjadi alamat IP." },
+    { "cat": "teknologi", "level": "hard", "q": "Kompleksitas waktu pencarian biner (binary search) pada array terurut adalah...", "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"], "answer": 1, "explain": "Setiap langkah membuang separuh data, sehingga waktunya O(log n)." },
+    { "cat": "teknologi", "level": "hard", "q": "Port default untuk protokol HTTPS adalah...", "options": ["80", "21", "443", "8080"], "answer": 2, "explain": "HTTP memakai port 80, sedangkan HTTPS memakai port 443." },
+
+    { "cat": "sejarah", "level": "easy", "q": "Proklamasi kemerdekaan Indonesia dibacakan pada tanggal...", "options": ["17 Agustus 1945", "17 Agustus 1950", "1 Juni 1945", "28 Oktober 1928"], "answer": 0, "explain": "Soekarno dan Hatta memproklamasikan kemerdekaan pada 17 Agustus 1945 di Jakarta." },
+    { "cat": "sejarah", "level": "easy", "q": "Presiden pertama Republik Indonesia adalah...", "options": ["Soeharto", "Soekarno", "B.J. Habibie", "Mohammad Hatta"], "answer": 1, "explain": "Soekarno menjabat Presiden pertama RI, dengan Mohammad Hatta sebagai wakilnya." },
+    { "cat": "sejarah", "level": "easy", "q": "Candi Buddha terbesar di dunia yang terletak di Magelang adalah...", "options": ["Prambanan", "Borobudur", "Mendut", "Sewu"], "answer": 1, "explain": "Candi Borobudur dibangun sekitar abad ke-8 hingga ke-9 pada masa Dinasti Syailendra." },
+    { "cat": "sejarah", "level": "medium", "q": "Sumpah Pemuda diikrarkan pada tahun...", "options": ["1908", "1928", "1945", "1950"], "answer": 1, "explain": "Sumpah Pemuda diikrarkan pada 28 Oktober 1928: satu tanah air, satu bangsa, satu bahasa." },
+    { "cat": "sejarah", "level": "medium", "q": "Kerajaan Hindu tertua di Indonesia adalah...", "options": ["Majapahit", "Sriwijaya", "Kutai", "Mataram"], "answer": 2, "explain": "Kerajaan Kutai di Kalimantan Timur (abad ke-4) dikenal sebagai kerajaan Hindu tertua." },
+    { "cat": "sejarah", "level": "medium", "q": "Perang Dunia II berakhir pada tahun...", "options": ["1943", "1945", "1947", "1950"], "answer": 1, "explain": "Perang Dunia II berakhir pada tahun 1945 setelah Jerman dan Jepang menyerah." },
+    { "cat": "sejarah", "level": "hard", "q": "Belanda mengakui kedaulatan Indonesia lewat Konferensi Meja Bundar pada tahun...", "options": ["1945", "1949", "1950", "1955"], "answer": 1, "explain": "Pengakuan kedaulatan dilakukan pada 27 Desember 1949 setelah KMB di Den Haag." },
+    { "cat": "sejarah", "level": "hard", "q": "Konferensi Asia Afrika pertama tahun 1955 diselenggarakan di kota...", "options": ["Jakarta", "Surabaya", "Bandung", "Yogyakarta"], "answer": 2, "explain": "KAA 1955 berlangsung di Gedung Merdeka, Bandung." },
+
+    { "cat": "sains", "level": "easy", "q": "Planet yang paling dekat dengan Matahari adalah...", "options": ["Venus", "Merkurius", "Mars", "Bumi"], "answer": 1, "explain": "Merkurius adalah planet terdekat dari Matahari dan juga yang terkecil di tata surya." },
+    { "cat": "sains", "level": "easy", "q": "Rumus kimia air adalah...", "options": ["CO2", "H2O", "O2", "NaCl"], "answer": 1, "explain": "Satu molekul air terdiri dari dua atom hidrogen dan satu atom oksigen (H2O)." },
+    { "cat": "sains", "level": "easy", "q": "Gas yang dibutuhkan manusia untuk bernapas adalah...", "options": ["Nitrogen", "Oksigen", "Karbon dioksida", "Helium"], "answer": 1, "explain": "Oksigen dipakai sel tubuh untuk menghasilkan energi dalam respirasi." },
+    { "cat": "sains", "level": "medium", "q": "Satuan gaya dalam Sistem Internasional (SI) adalah...", "options": ["Joule", "Watt", "Newton", "Pascal"], "answer": 2, "explain": "Gaya diukur dalam Newton (N), diambil dari nama Isaac Newton." },
+    { "cat": "sains", "level": "medium", "q": "Organel sel tempat berlangsungnya fotosintesis adalah...", "options": ["Mitokondria", "Kloroplas", "Ribosom", "Nukleus"], "answer": 1, "explain": "Kloroplas mengandung klorofil yang menangkap cahaya matahari untuk fotosintesis." },
+    { "cat": "sains", "level": "medium", "q": "Kecepatan cahaya di ruang hampa kira-kira...", "options": ["300.000 km/detik", "3.000 km/detik", "30.000 km/detik", "3.000.000 km/detik"], "answer": 0, "explain": "Cahaya merambat sekitar 299.792 km/detik di ruang hampa." },
+    { "cat": "sains", "level": "hard", "q": "Menurut Hukum II Newton, hubungan gaya (F), massa (m), dan percepatan (a) adalah...", "options": ["F = m / a", "F = m × a", "F = a / m", "F = m + a"], "answer": 1, "explain": "Hukum II Newton: gaya sama dengan massa dikali percepatan (F = m × a)." },
+    { "cat": "sains", "level": "hard", "q": "Unsur kimia dengan nomor atom 6 adalah...", "options": ["Oksigen", "Nitrogen", "Karbon", "Boron"], "answer": 2, "explain": "Karbon (C) memiliki 6 proton sehingga nomor atomnya 6." },
+
+    { "cat": "umum", "level": "easy", "q": "Ibu kota negara Jepang adalah...", "options": ["Osaka", "Kyoto", "Tokyo", "Nagoya"], "answer": 2, "explain": "Tokyo adalah ibu kota dan kota terbesar di Jepang." },
+    { "cat": "umum", "level": "easy", "q": "Lambang negara Indonesia adalah...", "options": ["Garuda Pancasila", "Harimau Sumatera", "Komodo", "Banteng"], "answer": 0, "explain": "Garuda Pancasila dengan semboyan Bhinneka Tunggal Ika adalah lambang negara Indonesia." },
+    { "cat": "umum", "level": "easy", "q": "Benua terbesar di dunia adalah...", "options": ["Afrika", "Asia", "Eropa", "Amerika Utara"], "answer": 1, "explain": "Asia adalah benua terluas sekaligus berpenduduk terbanyak." },
+    { "cat": "umum", "level": "medium", "q": "Samudra terluas di dunia adalah...", "options": ["Atlantik", "Hindia", "Pasifik", "Arktik"], "answer": 2, "explain": "Samudra Pasifik menutupi sekitar sepertiga permukaan Bumi." },
+    { "cat": "umum", "level": "medium", "q": "Mata uang resmi Jepang adalah...", "options": ["Won", "Yuan", "Yen", "Baht"], "answer": 2, "explain": "Yen (JPY) adalah mata uang resmi Jepang." },
+    { "cat": "umum", "level": "medium", "q": "Gunung tertinggi di dunia dari permukaan laut adalah...", "options": ["K2", "Everest", "Kilimanjaro", "Elbrus"], "answer": 1, "explain": "Gunung Everest setinggi sekitar 8.849 meter di atas permukaan laut." },
+    { "cat": "umum", "level": "hard", "q": "Lukisan Mona Lisa dilukis oleh...", "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Vincent van Gogh"], "answer": 1, "explain": "Leonardo da Vinci melukis Mona Lisa pada awal abad ke-16." },
+    { "cat": "umum", "level": "hard", "q": "Manusia pertama kali menginjakkan kaki di Bulan pada tahun...", "options": ["1965", "1969", "1972", "1975"], "answer": 1, "explain": "Neil Armstrong dan Buzz Aldrin mendarat di Bulan lewat misi Apollo 11 pada 1969." }
+  ]
+}

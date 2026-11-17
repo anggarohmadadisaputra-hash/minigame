@@ -1,0 +1,29 @@
+{
+  "categories": [
+    { "id": "indonesia", "name": "Bahasa Indonesia", "icon": "fa-book" },
+    { "id": "inggris", "name": "Bahasa Inggris", "icon": "fa-language" },
+    { "id": "komputer", "name": "Komputer", "icon": "fa-computer" }
+  ],
+  "words": [
+    { "cat": "indonesia", "level": 1, "word": "BUKU", "clue": "Kumpulan lembaran bertulisan yang dijilid dan dibaca.", "hints": ["Banyak ditemukan di perpustakaan.", "Terdiri dari 4 huruf dan diawali huruf B."] },
+    { "cat": "indonesia", "level": 1, "word": "SEKOLAH", "clue": "Tempat siswa belajar bersama guru.", "hints": ["Ada kelas, papan tulis, dan bel istirahat.", "Diawali huruf S."] },
+    { "cat": "indonesia", "level": 2, "word": "KEMERDEKAAN", "clue": "Keadaan bebas dan berdaulat, tidak dijajah.", "hints": ["Diperingati setiap 17 Agustus.", "Berasal dari kata dasar 'merdeka'."] },
+    { "cat": "indonesia", "level": 2, "word": "PERPUSTAKAAN", "clue": "Gedung tempat menyimpan dan meminjam buku.", "hints": ["Biasanya tenang dan penuh rak.", "Kata dasarnya 'pustaka'."] },
+    { "cat": "indonesia", "level": 3, "word": "PENGETAHUAN", "clue": "Segala sesuatu yang diketahui seseorang hasil belajar.", "hints": ["Kata dasarnya 'tahu'.", "Terdiri dari 11 huruf."] },
+    { "cat": "indonesia", "level": 3, "word": "KETERAMPILAN", "clue": "Kecakapan melakukan sesuatu dengan baik.", "hints": ["Kata dasarnya 'terampil'.", "Terdiri dari 12 huruf."] },
+
+    { "cat": "inggris", "level": 1, "word": "APPLE", "clue": "Buah berwarna merah atau hijau. Dalam bahasa Indonesia: apel.", "hints": ["Terdiri dari 5 huruf.", "Diawali huruf A."] },
+    { "cat": "inggris", "level": 1, "word": "WATER", "clue": "Cairan bening yang kita minum. Bahasa Indonesia: air.", "hints": ["Rumus kimianya H2O.", "Diawali huruf W."] },
+    { "cat": "inggris", "level": 2, "word": "LIBRARY", "clue": "Tempat meminjam buku. Bahasa Indonesia: perpustakaan.", "hints": ["Sering disangka 'libreri', padahal ditulis dengan 'ary'.", "Terdiri dari 7 huruf."] },
+    { "cat": "inggris", "level": 2, "word": "KNOWLEDGE", "clue": "Pengetahuan, hasil dari belajar dan pengalaman.", "hints": ["Huruf K di depan tidak dibaca.", "Terdiri dari 9 huruf."] },
+    { "cat": "inggris", "level": 3, "word": "ADVENTURE", "clue": "Petualangan: pengalaman seru dan penuh tantangan.", "hints": ["Diawali huruf A dan berakhiran 'ure'.", "Terdiri dari 9 huruf."] },
+    { "cat": "inggris", "level": 3, "word": "BEAUTIFUL", "clue": "Cantik atau indah.", "hints": ["Diawali 'beau' (dari bahasa Prancis).", "Terdiri dari 9 huruf."] },
+
+    { "cat": "komputer", "level": 1, "word": "MOUSE", "clue": "Perangkat penunjuk yang digeser untuk menggerakkan kursor.", "hints": ["Punya tombol kiri dan kanan.", "Namanya sama dengan hewan pengerat kecil."] },
+    { "cat": "komputer", "level": 1, "word": "MONITOR", "clue": "Perangkat output yang menampilkan gambar dari komputer.", "hints": ["Sering disebut layar.", "Diawali huruf M."] },
+    { "cat": "komputer", "level": 2, "word": "KEYBOARD", "clue": "Perangkat input untuk mengetik huruf dan angka.", "hints": ["Susunan tombolnya disebut QWERTY.", "Terdiri dari 8 huruf."] },
+    { "cat": "komputer", "level": 2, "word": "INTERNET", "clue": "Jaringan global yang menghubungkan jutaan komputer.", "hints": ["Dipakai untuk membuka situs web.", "Terdiri dari 8 huruf."] },
+    { "cat": "komputer", "level": 3, "word": "ALGORITMA", "clue": "Langkah-langkah logis untuk menyelesaikan suatu masalah.", "hints": ["Dasar dari setiap program komputer.", "Terdiri dari 9 huruf."] },
+    { "cat": "komputer", "level": 3, "word": "PROGRAMMER", "clue": "Orang yang menulis kode program.", "hints": ["Bekerja membuat aplikasi dan website.", "Terdiri dari 10 huruf, ada huruf M ganda."] }
+  ]
+}
